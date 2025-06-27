@@ -15,8 +15,33 @@ IntelGenie is a LangGraph + LLaMA-powered research assistant that automates rese
 - [Ollama](https://ollama.com/)
 - Python 3.10+
 
-## 📦 Installation
+📁 Final Project Directory: IntelGenie/
+bash
+Copy code
+IntelGenie/
+├── app.py                        # Streamlit frontend + report download
+├── .env.example                 # Environment variable template (NO SECRETS)
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project overview and usage instructions
+│
+├── workflows/                   # LangGraph pipeline logic
+│   └── graph.py
+│
+├── agents/                      # Individual agents for each task
+│   ├── researcher.py
+│   ├── summarizer.py
+│   └── recommender.py
+│
+├── utils/                       # Supporting utilities (DOCX formatting, etc.)
+│   └── formatting.py
+│
+├── assets/                      # Optional: demo screenshots, sample reports
+│   ├── demo_screenshot.png
+│   └── sample_report.docx
+│
+└── LICENSE                      # (optional) MIT or Apache license
 
+## 📦 Installation
 ```bash
 git clone https://github.com/Chetansonawane7/-IntelGenie---Multi-Agent-Research-Assistant.git
 cd IntelGenie
