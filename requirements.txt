@@ -1,0 +1,14 @@
+langchain
+langgraph
+openai
+streamlit
+chromadb
+tiktoken
+faiss-cpu
+unstructured
+python-docx
+pymupdf
+requests
+beautifulsoup4
+langchainhub
+python-dotenv
